@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="#F5B041"
+    tools:context="com.example.android.happyreading.Main2Activity">
+
+    <ImageView
+        android:id="@+id/quote"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:src="@drawable/neverlate"
+        android:layout_weight="1"
+        android:scaleType="centerCrop"
+        />
+
+
+    <ImageView
+        android:id="@+id/happyreading_img"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/happyreading"
+        android:scaleType="centerCrop"
+        android:layout_weight="1"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Dream Big"
+        android:textSize="30dp"
+        android:layout_gravity="right"
+        />
+
+
+</LinearLayout>
